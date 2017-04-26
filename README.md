@@ -1,6 +1,6 @@
 # npmtest-redux-persist
 
-#### test coverage for  [redux-persist (v4.6.0)](https://github.com/rt2zz/redux-persist)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-persist.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-persist) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-persist.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-persist)
+#### basic test coverage for  [redux-persist (v4.6.0)](https://github.com/rt2zz/redux-persist)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-persist.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-persist) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-persist.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-persist)
 
 #### persist and rehydrate redux stores
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-persist/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-persist/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-persist/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-persist/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-persist/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-persist/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-persist/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-persist/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-persist/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-persist/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-persist/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-persist/build/coverage.html/index.html)
 
@@ -128,7 +128,8 @@
         "parser": "babel-eslint"
     },
     "typings": "lib/index.d.ts",
-    "version": "4.6.0"
+    "version": "4.6.0",
+    "bin": {}
 }
 ```
 
